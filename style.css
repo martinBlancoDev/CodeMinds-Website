@@ -1550,3 +1550,51 @@ color: rgb(241, 133, 9);
     }
 }
 
+/*SECCION CURSOS*/
+
+
+.cursos-header{
+
+    background-color: #12022b;
+}
+
+.cursos-header .cursos-text{
+
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cursos-header .cursos-text h1{
+
+    font-size: 43px;
+    color: #fff;
+}
+
+.cursos-header .cursos-text p{
+
+    color: rgb(177, 171, 171);
+    padding-top: 10px;
+}
+
+
+
+
+.cursos-main{
+    height: 100%;
+    background-color: #180435;
+}
+
+.cursos-main .grilla-cursos .curso .horas-calificacion .horas i{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+

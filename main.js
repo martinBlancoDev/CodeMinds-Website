@@ -20,6 +20,8 @@ function abrirPregunta(id){
     }
 }
 
+
+
 //animaciones index
 
 gsap.from('.navbar', 1.5, {opacity:0, y:-200, delay: .2})
