@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINKS DE ENLACE A CSS, JS Y BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="main.js"></script>
+
+    <title>ProyectoFinal2024</title>
+</head>
+<body>
+    
+    <!--SECCION NAVBAR Y PANTALLA PRINCIPAL (HEADER)-->
+    
+    <header>
+        <section class="landing-section">
+            <div class="navbar">
+                <div class="logo"><a href="index.html"><img src="./assets/LogoNav.png" alt="Logo-NavBar"></a></div>
+                
+                <ul class="links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="courses">Cursos</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="contact">Contacto</a></li>
+    
+                </ul>
+
+                <div class="div-btn">
+                    <a href="#" class="get-started-btn">Comienza Ahora</a>
+                </div>
+
+                <div class="menu-button" >
+                    <i class="fa-solid fa-bars" onclick='openMenuDesplegable("menu-desplegable")'></i>
+                </div>
+
+                <div id="menu-desplegable">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about">Nosotros</a></li>
+                    <li><a href="courses">Cursos</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="contact">Contacto</a></li>
+                    <li> <a href="#" class="get-started-btn">Comienza Ahora</a></li>
+                    
+                </div>
+            </div>
+
+            <div class="titulo">
+                <h1>Aprende como <br><span class="nunca">Nunca</span> lo <span>Imaginaste</span></h1>
+                <p>Aprender sobre el mundo de la tecnología nunca ha sido tan facil y accesible. Explora, descubre, crea: tu viaje STEM comienza aquí.</p>
+                <div class="explora-btn">
+                    <a href="#" class="explore-btn"> Explora Cursos </i><i class="fa-solid fa-arrow-right"></i></a>
+                    
+                </div>
+            </div>
+
+        </section>
+    </header>
+    
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION EMPRESAS QUE APOYAN-->
+
+    <section class="empresas">
+
+        <div class="apoyan">
+            <h1 class="apoyan-titulo">
+                Confían en <span>Nosotros</span>
+            </h1>
+
+        </div>
+
+
+        <div class="container-fluid">
+
+            <div class="slick-carousel">
+                <div class="desemja">
+                    <img src="./assets/Logos-Empresas/Logo-DESEMJA.png" alt="">
+                </div>
+    
+                <div class="scotiabank">
+                    <img src="./assets/Logos-Empresas/Logo-Scotiabank.png" alt="">
+                </div>
+    
+                <div class="microsoft">
+                    <img src="./assets/Logos-Empresas/Logo-Microsoft.png" alt="">
+                </div>
+    
+                <div class="inefop">
+                    <img src="./assets/Logos-Empresas/Logo-Inefop.png" alt="">
+                </div>
+    
+                <div class="globant">
+                    <img src="./assets/Logos-Empresas/Logo-Globant.png" alt="">
+                </div>
+
+                <div class="qualabs">
+                    <img src="./assets/Logos-Empresas/Logo Qualabs.png" alt="">
+                </div>
+
+                <div class="finning">
+                    <img src="./assets/Logos-Empresas/Logo-Finning.png" alt="">
+                </div>
+
+                <div class="hackacademy">
+                    <img src="./assets/Logos-Empresas/HackAcademy Logo.png" alt="">
+                </div>
+
+            </div>
+            
+
+            <div class="slick-carousel2">
+                <div class="desemja">
+                    <img src="./assets/Logos-Empresas/Logo-DESEMJA.png" alt="">
+                </div>
+    
+                <div class="scotiabank">
+                    <img src="./assets/Logos-Empresas/Logo-Scotiabank.png" alt="">
+                </div>
+    
+                <div class="microsoft">
+                    <img src="./assets/Logos-Empresas/Logo-Microsoft.png" alt="">
+                </div>
+    
+                <div class="inefop">
+                    <img src="./assets/Logos-Empresas/Logo-Inefop.png" alt="">
+                </div>
+    
+                <div class="globant">
+                    <img src="./assets/Logos-Empresas/Logo-Globant.png" alt="">
+                </div>
+
+                <div class="qualabs">
+                    <img src="./assets/Logos-Empresas/Logo Qualabs.png" alt="">
+                </div>
+
+                <div class="finning">
+                    <img src="./assets/Logos-Empresas/Logo-Finning.png" alt="">
+                </div>
+
+                <div class="hackacademy">
+                    <img src="./assets/Logos-Empresas/HackAcademy Logo.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION BIENVENIDA-->
+
+    <section class="bienvenida">
+
+        <div class="imagen">
+            <img src="./assets/Imagen-Bienvenida.png" alt="">
+        </div>
+
+        <div class="bienvenida-text">
+            <h1>Aprender <span class="programacion">Programación</span> Nunca ha sido tan <span class="facil">fácil</span></h1>
+            <p>La tecnología y programación son el futuro. Por eso, creemos que todas las personas deben tener acceso al conocimiento y poder aprender todo lo que esta es capaz de ofrecer.</p>
+            <div class="puntos-clave">
+            
+                <div class="punto">
+                    <i class="fa-solid fa-book"></i></i>
+                    <p>Accede a Una Gran Biblioteca de Cursos Disponibles</p>
+                </div>
+
+                <div class="punto">
+                    <i class="fa-solid fa-video"></i>
+                    <p>Aprende Mediante Contenidos Grabados Por Nuestros Expertos</p>
+                </div>
+
+                <div class="punto">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <p>Todo Completamente de Forma Gratuita </p>
+                </div>
+
+            </div>
+
+            <div class="boton-about">
+                <a href="about.html" class="explore-btn"> Sobre Nosotros </i><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            
+        </div>
+
+       
+    </section>
+    
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION VENTAJAS (MAS QUE SIMPLEMENTE APRENDER)-->
+
+    <section class="ventajas">
+        
+
+        <div class="ventajas-titulo">
+            <h1><span class="mas">Más</span> que simplemente <span class="aprender">Aprender</span></h1>
+            <p>El aprendizaje sólo es el comienzo. Brindamos muchas más oportunidades a nuestros estudiantes</p>
+        </div>
+        <div class="iconos-textos">
+            
+            <div class="ventaja">
+
+                <img src="./assets/Certificate.png" alt="">
+                <h3>Certifícate</h3>
+                <p>Obtén un certificado validado al finalizar un curso para añadir a tu CV</p>
+                
+            </div>
+
+            <div class="ventaja">
+
+                <img src="./assets/Codigo-Proyectos.png" alt="">
+                <h3>Practica</h3>
+                <p>Te brindamos una gran variedad de proyectos para que puedas poner en práctica lo aprendido</p>
+                
+            </div>
+
+            <div class="ventaja">
+
+                <img src="./assets/Conecta.png" alt="">
+                <h3>Conecta</h3>
+                <p>Conéctate con nuestra red Alumni para acceder a beneficios y conectar con Empresas y Clientes</p>
+                
+            </div>
+
+            
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION CATEGORIAS CURSOS-->
+
+    <section class="categorias">
+        
+        <div class="text-btn">
+            <h2>Temáticas <span>Populares</span></h2>
+            <div class="contenedor-btn-cursos">
+                <a href="#" class="boton-cursos"> Ver Todos </i><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div class="grilla-categorias">
+            
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>Programación</h5>
+                    <p>Ofrecemos cursos acerca de Programación en una diversa variedad de lenguajes para ser capaz de crear lo que quieras.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <h5>Inteligencia Artificial</h5>
+                    <p>Ofrecemos cursos acerca de Inteligencia Artificial y Machine Learning para que aprendas a manejar la IA e implementarla.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h5>Ciberseguridad</h5>
+                    <p>Ofrecemos cursos acerca de Ciberseguridad y Hacking para que aprendas a proteger sistemas y aplicaciones de Ataques.</p>
+                </div>
+            </div>
+
+           <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h5>Diseño UX/UI</h5>
+                    <p>Ofrecemos cursos acerca de Diseño UX/UI Para que aprendas a diseñar de manera intuitiva y estética para darle vida a tus proyectos.</p>
+                </div>
+
+                <div class="col">
+                    <i class="fa-solid fa-database"></i>
+                    <h5>Bases de Datos</h5>
+                    <p>Ofrecemos cursos acerca de la creación y administración de Bases de Datos para que aprendas a almacenar y organizar tus datos.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-cloud"></i>
+                    <h5>Servicios Cloud</h5>
+                    <p>Ofrecemos cursos acerca de Servicios Cloud para que puedas implementar servicios en la nube y brindarle a tu sistema más innovación.</p>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION CURSOS POPULARES-->
+
+    <section class="cursos">
+        
+        <div class="titulo-cursos">
+            <h1>Los <span class="cursos">Cursos</span> Más <span class="vistos">Vistos</span></h1>
+            <p>Estos son los cursos preferidos elegidos por nuestros estudiantes para comenzar o profundizar su camino en el mundo STEM.</p>
+        </div>
+
+        <div class="grilla-cursos">
+            
+            <div class="curso">
+
+                <div class="imagen-curso">
+                    <img src="./assets/Imagen-Curso-Programacion.jpg" alt="">
+                </div>
+
+                <div class="categoria-pg">
+                    <i class="fa-solid fa-code"></i>
+                    <p>Programación</p>
+                </div>
+
+                <h4>Introducción a la Programación Web con HTML / CSS</h4>
+                
+                <div class="horas-calificacion">
+                    
+                    <div class="horas">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>25 Horas</p>
+                    </div>
+
+                    <div class="calificacion">
+                        
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        
+
+                    </div>
+                </div>
+
+                <div class="btn-dificultad">
+                    
+                    <div class="btn-ver-detalles">
+                        <a href="#" class="explore-btn"> Ver Más </i><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="dificultad-p">
+                        <p>Principiante</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="curso">
+
+                <div class="imagen-curso">
+                    <img src="./assets/Imagen-Curso-IA.jpg" alt="">
+                </div>
+                <div class="categoria-ia">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <p>Inteligencia Artificial</p>
+                </div>
+                <h4>Introducción a Machine y Deep Learning</h4>
+                
+                <div class="horas-calificacion">
+                    
+                    <div class="horas">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>30 Horas</p>
+                    </div>
+
+                    <div class="calificacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="btn-dificultad">
+                    
+                    <div class="btn-ver-detalles">
+                        <a href="#" class="explore-btn"> Ver Más </i><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="dificultad-i">
+                        <p>Intermedio</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="curso">
+
+                <div class="imagen-curso">
+                    <img src="./assets/Imagen-Curso-Ciberseguridad.jpg" alt="">
+                </div>
+                <div class="categoria-cbs">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <p>Ciberseguridad</p>
+                </div>
+                <h4>Introducción a la Ciberseguridad</h4>
+                
+                <div class="horas-calificacion">
+                    
+                    <div class="horas">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>40 Horas</p>
+                    </div>
+
+                    <div class="calificacion">
+                        
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                    </div>
+                </div>
+
+                <div class="btn-dificultad">
+                    
+                    <div class="btn-ver-detalles">
+                        <a href="#" class="explore-btn"> Ver Más </i><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="dificultad-a">
+                        <p>Avanzado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION TESTIMONIALS-->
+
+    <section class="testimonials">
+        
+        <div class="title-testimonials">
+            <h1>Lo Que <span class="nuestros">Nuestros</span> Estudiantes <span class="dicen">Dicen</span></h1>
+            <p>nuestros estudiantes cuentan su experiencia con la iniciativa y animan a otros a probar y formarse en el mundo IT</p>
+        </div>
+
+        <div class="testimonios">
+
+            <div class="testimonio">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>Estoy encantado con la experiencia que he tenido accediendo a los cursos de CodeMinds. La calidad del contenido es excepcional y la plataforma en línea hace que sea fácil aprender a mi propio ritmo. Esta oportunidad ha sido invaluable para mi preparación en el campo tecnológico.</p>
+                
+                <div class="nombre">
+                    <h3>Gabriel Fernandez</h3>
+                    <p>Estudiante de IA/ML</p>
+                </div>
+            </div>
+
+            <div class="testimonio">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>Explorar los cursos de CodeMinds ha sido una verdadera revelación. La calidad del material es sobresaliente y la plataforma en línea ofrece una experiencia de aprendizaje sin igual. Estoy enormemente agradecido por esta oportunidad que ha fortalecido mi base en tecnología.</p>
+                
+                <div class="nombre">
+                    <h3>Alejandra Cabrera</h3>
+                    <p>Junior Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION FAQs-->
+
+    <section id="faqs">
+
+        <div class="title-faqs">
+            <h1>Preguntas <span class="frecuentes">Frecuentes</span></h1>
+        </div>
+
+        <div class="questions">
+            
+            <div class="pregunta" onclick="abrirPregunta('pregunta1')">
+
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>¿Quiénes pueden acceder a los cursos?</h3>
+                </div>
+                <div id="pregunta1"><p>Todos pueden acceder a nuestros cursos. Están diseñados para personas de todas las edades y niveles de habilidad que estén interesadas en aprender sobre tecnología</p></div>
+            </div>
+
+            <div class="pregunta" onclick="abrirPregunta('pregunta2')">
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>¿Los cursos son realmente gratuitos?</h3>
+                </div>
+                <div id="pregunta2"><p>Sí, todos nuestros cursos son completamente gratuitos. Creemos en la accesibilidad a la educación y estamos comprometidos a ofrecer oportunidades de aprendizaje sin costo alguno.</p></div>
+            </div>
+
+            <div class="pregunta" onclick="abrirPregunta('pregunta3')">
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>¿Qué nivel de conocimientos se requiere para tomar los cursos?</h3>
+                </div>
+                <div id="pregunta3"><p>Nuestros cursos están diseñados para personas de todos los niveles de conocimiento, desde principiantes hasta expertos. No se requieren conocimientos previos específicos, aunque algunos cursos pueden tener requisitos mínimos.</p></div>
+            </div>
+
+            <div class="pregunta" onclick="abrirPregunta('pregunta4')">
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>Obtengo algun tipo de certificado al finalizar los cursos?</h3>
+                </div>
+                <div id="pregunta4"><p>Si, al finalizar cada curso obtendras un certificado validado de finalizacion para que puedas agregar a tu curriculum y mejorar tu perfil profesional. Otorgamos certificados de finalización para todos los cursos que completas con éxito.</p></div>
+            </div>
+
+            <div class="pregunta" onclick="abrirPregunta('pregunta5')">
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>¿Puedo acceder a los cursos desde cualquier parte del mundo?</h3>
+                </div>
+                <div id="pregunta5"><p>Sí, nuestros cursos están disponibles en línea y puedes acceder a ellos desde cualquier lugar con conexión a internet.</p></div>
+            </div>
+
+            <div class="pregunta" onclick="abrirPregunta('pregunta6')">
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>¿Cómo me registro para acceder a los cursos?</h3>
+                </div>
+                <div id="pregunta6"><p>El registro es muy sencillo. Solo necesitas crear una cuenta de forma gratuita en la pagina y podrás comenzar a explorar nuestros cursos de inmediato.</p></div>
+            </div>
+
+            <div class="pregunta" onclick="abrirPregunta('pregunta7')">
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>¿Hay algún límite en la cantidad de cursos que puedo tomar?</h3>
+                </div>
+                <div id="pregunta7"><p>No, no hay límite en la cantidad de cursos que puedes tomar. Puedes inscribirte en tantos cursos como desees y aprender a tu propio ritmo.</p></div>
+            </div>
+
+            <div class="pregunta" onclick="abrirPregunta('pregunta8')">
+                <div class="titulo-pregunta">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3>¿Ofrecen algún tipo de seguimiento o soporte después de completar un curso?</h3>
+                </div>
+                <div id="pregunta8"><p>Sí, seguimos brindando soporte a nuestros estudiantes incluso después de que completen un curso. Puedes acceder a recursos adicionales, participar en eventos y unirte a nuestra comunidad en línea para seguir aprendiendo y creciendo en tu carrera tecnológica.</p></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION COMIENZA AHORA-->
+
+    <section class="start-now">
+        <div class="img-sn">
+            <img src="./assets/Programacion 1.png" alt="">
+        </div>
+
+        <div class="text-sn">
+            <h1>¿A Qué Estás <span class="esperando">Esperando</span>? Comienza <span class="ahora">Ahora</span> Tu Camino.</h1>
+            <p>Crea tu cuenta gratuita y comienza a explorar nuestros cursos.</p>
+
+            <div class="btn-sn">
+                <a href="#" class="boton-cursos"> Comienza Ahora</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------------------------------------>
+
+    <!--SECCION FOOTER-->
+
+    <footer class="footer">
+        <div class="section-about">
+            <div class="img">
+                <img src="./assets/LogoNav.png" alt="">
+                <p>Somos una Empresa uruguaya Líder, comprometida con el acceso equitativo a la educación tecnológica. Creemos en un mundo donde el conocimiento tecnológico está al alcance de todos, y trabajamos incansablemente para hacerlo posible.</p>
+            </div>
+        </div>
+
+        <div class="section-contact">
+            <h3>Contacto</h3>
+            <p>Teléfono: +598 2904 3182</p>
+            <p>E-mail: info@codeminds.com</p>
+            <p>Horario de Atencion: 09:00 a 18:00hs</p>
+        </div>
+
+        <div class="section-socials">
+            <h3>Redes Sociales</h3>
+
+            <div class="icons">
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!------------------------------------------------------------------------------------------------>
+
+
+<!----------------------------------------------SECCION DE SCRIPTS DE JS---------------------------------------->
+
+
+
+    <!--Script para animar con GSAP-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <!--Script de JS de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+    <!--ESTO ES EL SCRIPT Y LINKS PARA EL CAROUSEL de Empresas (con Slick.js) -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+    <!--Script que inicializa el Carousel de 4 Slides (Para pantallas grandes)-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 100,
+                infinite:true,
+                speed: 5000,
+                arrows:false
+                
+            });
+        });
+    </script>
+
+    <!--------------------------------------------->
+
+    <!--Script que inicializa el Carousel de 2 Slides (Para pantallas chicas)-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slick-carousel2').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 100,
+                infinite:true,
+                speed: 5000,
+                arrows:false
+
+                
+            });
+        });
+    </script>
+
+    <!--------------------------------------------->
+
+</body>
+</html>
