@@ -1411,7 +1411,7 @@ color: rgb(241, 133, 9);
 .valores-section{
     
     height: 100%;
-    background-color: #12022b;
+    background-color:#1b0243 ;
 }
 
 .valores-section .valores-titulo{
@@ -1433,7 +1433,7 @@ color: rgb(241, 133, 9);
 
     display: flex;
     flex-direction: row;
-    padding: 20px 30px;
+    padding: 20px 30px 50px 30px;
     justify-content: space-around;
     gap: 20px;
 }
@@ -1445,4 +1445,108 @@ color: rgb(241, 133, 9);
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 25px;
 }
+
+.valores-section .valores .valor .fa-solid{
+
+    font-size: 50px;
+    color: rgb(241, 133, 9);
+    padding-bottom: 20px;
+}
+
+.valores-section .valores .valor .fa-eye{
+
+    color: #2ab0c2;
+}
+
+.valores-section .valores .valor p{
+
+    padding-top: 10px;
+    color: rgb(177, 171, 171);
+}
+
+@media(max-width:720px){
+
+    .valores-section .valores{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .valores-section .valores .valor{
+        width: 80%;
+    }
+}
+
+
+/*SECCION AWARDS*/
+
+.awards-section{
+
+    height: 100%;
+    background-color: #180435;
+}
+
+.awards-section .title-awards{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.awards-section .title-awards h1{
+    color:#fff;
+}
+
+.awards-section .title-awards p{
+    padding: 0 20px;
+    color: rgb(177, 171, 171);
+}
+
+.awards-section .awards{
+
+    width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.awards-section .awards .award{
+
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+}
+
+.awards-section .awards .award img{
+    width: 80%;
+}
+
+@media(max-width:720px){
+    .awards-section .awards{
+
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .awards-section .awards .award{
+        width: 60%;
+    }
+
+    .awards-section .awards .award img{
+        width: 100%;
+    }
+}
+
