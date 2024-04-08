@@ -45,7 +45,8 @@ gsap.from('.valores-section .valores-titulo', 1.5, {opacity:0, x:300, delay: .8}
 gsap.from('.valores-section .valores', 1.5, {opacity:0, x:-300, delay: .8})
 
 
-
+gsap.from('.cursos-text', 1.5, {opacity:0, x:-300, delay: .3})
+gsap.from('.grilla-cursos', 1.5, {opacity:0, x:300, delay: .5})
 
 
 

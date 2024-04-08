@@ -23,6 +23,14 @@ li a:hover{
     color:orange;
 }
 
+.azul{
+    color: #2ab0c2;
+}
+
+.naranja{
+    color: rgb(241, 133, 9);
+}
+
 .landing-section {
     background-image: url("./assets/fondo.png");
     background-size: cover;
@@ -157,12 +165,6 @@ li a:hover{
     font-size: 50px;
     color: #fff;
 }
-.titulo h1 .nunca {
-    color: rgb(241, 133, 9);
-}
-.titulo h1 span {
-    color: #2ab0c2;
-}
 
 .titulo p{
     padding: 20px 0;
@@ -232,9 +234,6 @@ li a:hover{
     color:#fff
 }
 
-.apoyan h1 span{
-    color:rgb(241, 133, 9);
-}
 
 
 .container-fluid div{
@@ -301,13 +300,6 @@ li a:hover{
     padding-bottom: 20px;
 }
 
-.bienvenida .programacion{
-    color: rgb(241, 133, 9);
-}
-
-.bienvenida .facil{
-    color: #2ab0c2;
-}
 .bienvenida p{
     color:rgb(177, 171, 171);
     margin: 0;
@@ -399,15 +391,6 @@ li a:hover{
     color: #fff;
 }
 
-.ventajas-titulo h1 .mas{
-
-    color: #2ab0c2;
-}
-
-.ventajas-titulo h1 .aprender{
-
-    color: rgb(241, 133, 9);
-}
 .ventajas-titulo p{
     padding: 0 30px;
     text-align: center;
@@ -505,9 +488,6 @@ li a:hover{
     font-size: 35px;
 }
 
-.text-btn h2 span{
-    color:#2ab0c2;
-}
 
 .grilla-categorias{
     width: 100%;
@@ -618,13 +598,6 @@ li a:hover{
     color: #fff;
 }
 
-.cursos h1 .cursos{
-    color:#2ab0c2;
-}
-
-.cursos h1 .vistos{
-    color: rgb(241, 133, 9);
-}
 .cursos p{
     width: 65%;
     color: rgb(177, 171, 171);
@@ -896,13 +869,6 @@ li a:hover{
     padding: 0 10px;
 }
 
-.title-testimonials h1 .nuestros{
-    color:#2ab0c2;
-}
-
-.title-testimonials h1 .dicen{
-    color: rgb(241, 133, 9);
-}
 .title-testimonials p{
     width: 65%;
     color: rgb(177, 171, 171);
@@ -994,11 +960,6 @@ text-align: center;
 padding: 0 10px;
 }
 
-
-
-.title-faqs h1 .frecuentes{
-color: rgb(241, 133, 9);
-}
 
 .questions {
 
@@ -1100,14 +1061,6 @@ color: rgb(241, 133, 9);
 .text-sn p{
     color: rgb(177, 171, 171);
     padding-top: 10px;
-}
-
-.text-sn .ahora{
-    color: #2ab0c2;
-}
-
-.text-sn .esperando{
-    color: rgb(241, 133, 9);
 }
 
 .text-sn .btn-sn{
@@ -1314,10 +1267,6 @@ color: rgb(241, 133, 9);
     padding-bottom: 20px;
 }
 
-.about-text h1 .logros{
-
-    color: rgb(241, 133, 9);
-}
 
 .about-text p{
 
@@ -1578,9 +1527,6 @@ color: rgb(241, 133, 9);
     padding-top: 10px;
 }
 
-
-
-
 .cursos-main{
     height: 100%;
     background-color: #180435;
@@ -1590,7 +1536,92 @@ color: rgb(241, 133, 9);
     padding-right: 10px;
 }
 
+/*CATEGORIA UX/UI*/
 
+.cursos-main .grilla-cursos .curso .categoria-ux{
+    
+    width: 65%;
+    padding: 15px 0;
+    text-align: left;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cursos-main .grilla-cursos .curso .categoria-ux p{
+
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(37, 253, 91);
+    padding: 3px 7px;
+    margin: 0;
+    color: #000;
+}
+
+.cursos-main .grilla-cursos .curso .categoria-ux .fa-wand-magic-sparkles{
+
+    border-radius: 10px;
+    padding-right: 15px;
+    color: rgb(37, 253, 91);
+}
+
+/*CATEGORIA BASE DE DATOS*/
+
+.cursos-main .grilla-cursos .curso .categoria-bd{
+    
+    width: 65%;
+    padding: 15px 0;
+    text-align: left;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cursos-main .grilla-cursos .curso .categoria-bd p{
+
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(156, 37, 253);
+    padding: 3px 7px;
+    margin: 0;
+    color: #fff;
+}
+
+.cursos-main .grilla-cursos .curso .categoria-bd .fa-database{
+
+    border-radius: 10px;
+    padding-right: 15px;
+    color: rgb(156, 37, 253);
+}
+
+/*CATEGORIA CLOUD*/
+
+.cursos-main .grilla-cursos .curso .categoria-cl{
+    
+    width: 65%;
+    padding: 15px 0;
+    text-align: left;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.cursos-main .grilla-cursos .curso .categoria-cl p{
+
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(241, 133, 9);
+    padding: 3px 7px;
+    margin: 0;
+    color: #fff;
+}
+
+.cursos-main .grilla-cursos .curso .categoria-cl .fa-cloud{
+
+    border-radius: 10px;
+    padding-right: 15px;
+    color: rgb(241, 133, 9);
+}
 
 
 
