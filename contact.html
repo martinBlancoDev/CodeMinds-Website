@@ -86,20 +86,24 @@
             <form action="/enviar">
 
                 <div class="nombre">
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" placeholder="Nombre" required>
+                    <input type="email" id="email" name="email" placeholder="Apellido" required>
                 </div>
-                 <input type="email" id="email" name="email" required>
-    
-                <input type="tel" id="telefono" name="telefono">
-                
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                
+                <input type="tel" id="telefono" name="telefono" placeholder="Correo Electrónico">
+                <textarea id="mensaje" name="mensaje" rows="10" placeholder="Mensaje" required></textarea>                
             </form>
+
+            <div class="btn-enviar">
+                <a href="#" class="boton-cursos"> Enviar </i><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
         </div>
 
     </section>
+    
 
-
+     <!--Script para animar con GSAP-->
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     
 </body>
 </html>
