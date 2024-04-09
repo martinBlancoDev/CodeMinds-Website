@@ -1626,6 +1626,67 @@ padding: 0 10px;
 
 /*SECCION CONTACT US*/
 
+.contact{
+
+    height: 100%;
+    background-color: #12022b;
+    display: flex;
+}
+
+.contact .contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 20px;
+    padding: 20px 30px 80px 30px;
+    color: #fff;
+}
+
+.contact .contact-info .img-contact{
+    width: 70%;
+}
+.contact .contact-info .img-contact img{
+    display: none;
+    width: 100%;
+}
+
+
+.contact .contact-info .text-contact h1{
+
+    color: rgb(241, 133, 9);
+    padding-bottom: 15px;
+    font-size: 230%;
+}
+.contact .contact-info .text-contact .data{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.contact .contact-info .text-contact .data p{
+
+    margin: 0;
+}
+
+.contact .contact-info .text-contact .data i{
+
+    color: #2ab0c2;
+    margin: 0;
+}
+
+.contact .form-div{
+
+    width: 50%;
+    background-color: #2ab0c2;
+}
 
 
 
