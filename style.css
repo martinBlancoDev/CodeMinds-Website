@@ -1760,10 +1760,77 @@ padding: 0 10px;
         padding-top: 0;
         margin-bottom: 50px;
     }
-    
+}
 
+/*SECCION CURSO (PAGINA DE DETALLES DE CADA CURSO)*/
+
+.course-header{
+
+    height: 100%;
+    background-color: #12022b;
+}
+
+.course-main{
+
+    display: flex;
+    padding: 30px 20px;
+    align-items: center;
+    gap: 30px;
+    background-color: #1b0243;
+}
+
+.course-main .img-banner-title{
+
+    width: 65%;
 
 }
+
+.course-main .img-banner-title img{
+
+    width: 100%;
+    border-radius: 40px;
+}
+
+.course-main .img-banner-title h1{
+
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 32px;
+    
+}
+.course-main .course-info{
+
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    background-color: #440e9b;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.course-main .course-info .info{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+    padding: 15px 0;
+    font-size: 19px;
+}
+
+.course-main .course-info .info p{
+
+    margin: 0;
+    padding: 0;
+}
+
+.course-main .course-info .info .fa-solid{
+
+    color: rgb(241, 133, 9);
+}
+
+
 
 
 
