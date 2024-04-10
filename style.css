@@ -1807,6 +1807,7 @@ padding: 0 10px;
     background-color: #440e9b;
     color: #fff;
     border-radius: 30px;
+    margin-bottom: 100px;
 }
 
 .course-main .course-info .info{
@@ -1881,6 +1882,94 @@ padding: 0 10px;
     color: rgb(177, 171, 171);
     padding: 20px;
 }
+
+@media(max-width:760px){
+
+    .course-main{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course-main .img-banner-title{
+
+        width: 90%;
+    }
+
+    .course-main .course-info{
+        width: 80%;
+    }
+}
+
+.course-details-section{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #1b0243;
+    padding: 0 40px;
+}
+
+.course-details-section .instructor{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.course-details-section .instructor .img-name-instructor{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.course-details-section .instructor h3{
+
+    color: #fff;
+}
+
+.course-details-section .instructor .img-name-instructor .img-instructor{
+
+    width: 150px;
+}
+
+.course-details-section .instructor .img-name-instructor .img-instructor img{
+
+    width: 100%;
+    border-radius: 100%;
+}
+
+.course-details-section .instructor .img-name-instructor .txt-instructor h4{
+
+    color: #fff;
+}
+
+.course-details-section .instructor .img-name-instructor .txt-instructor p{
+
+    color: rgb(177, 171, 171);
+    padding-top: 5px;
+}
+
+.course-details-section .course-details{
+
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    color: #fff;
+}
+
+.course-details-section .course-details p{
+    color: rgb(177, 171, 171);
+    
+}
+
 
 
 
