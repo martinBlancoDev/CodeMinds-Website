@@ -45,12 +45,25 @@ gsap.from('.valores-section .valores-titulo', 1.5, {opacity:0, x:300, delay: .8}
 gsap.from('.valores-section .valores', 1.5, {opacity:0, x:-300, delay: .8})
 
 
+
+//animaciones courses page
 gsap.from('.cursos-text', 1.5, {opacity:0, x:-300, delay: .3})
 gsap.from('.grilla-cursos', 1.5, {opacity:0, x:300, delay: .5})
 
 
+//animaciones contact page
 gsap.from('.contact .form-div', 1.5, {opacity:0, x:300, delay: .5})
 gsap.from('.contact .contact-info', 1.5, {opacity:0, x:-300, delay: .5})
+
+//animaciones course page
+
+gsap.from('.course-main .img-banner-title', 1.5, {opacity:0, x:-300, delay: .2})
+gsap.from('.course-main .course-info', 1.5, {opacity:0, x:300, delay: .3})
+gsap.from('.course-details-section .instructor', 1.5, {opacity:0, x:300, delay: .5})
+gsap.from('.course-details-section .course-details', 1.5, {opacity:0, x:-300, delay: .5})
+
+
+
 
 
 

@@ -1629,7 +1629,7 @@ padding: 0 10px;
 .contact{
 
     height: 100%;
-    background-color: #12022b;
+    background-color: #180435;
     display: flex;
 }
 
@@ -1714,7 +1714,7 @@ padding: 0 10px;
 
     width: 100%;
     justify-content: left;
-    padding-top: 20px;
+    padding: 20px 0 50px 0;
 }
 
 
@@ -1914,7 +1914,7 @@ padding: 0 10px;
     
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
 }
 
 .course-details-section .instructor .img-name-instructor{
@@ -1934,7 +1934,7 @@ padding: 0 10px;
 
 .course-details-section .instructor .img-name-instructor .img-instructor{
 
-    width: 150px;
+    width: 200px;
 }
 
 .course-details-section .instructor .img-name-instructor .img-instructor img{
@@ -1943,6 +1943,11 @@ padding: 0 10px;
     border-radius: 100%;
 }
 
+.course-details-section .instructor .img-name-instructor .txt-instructor {
+
+width: 80%;
+
+}
 .course-details-section .instructor .img-name-instructor .txt-instructor h4{
 
     color: #fff;
@@ -1969,6 +1974,29 @@ padding: 0 10px;
     color: rgb(177, 171, 171);
     
 }
+
+.course-details-section .course-details .learn{
+
+    padding-bottom: 50px;
+}
+
+.course-details-section .course-details .learn .learning-point{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.course-details-section .course-details .learn .learning-point p{
+   margin: 0;
+}
+
+
+
+
 
 
 
