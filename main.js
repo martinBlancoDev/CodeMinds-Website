@@ -75,8 +75,11 @@ gsap.from('.form-login p', 1.3, {opacity:0, x:-300, delay: .6})
 gsap.from('.title-login p', 1.3, {opacity:0, y:300, delay: .6})
 
 
+//animaciones de construccion
 
 
+gsap.from('.en-construccion .txt-construction', 1.3, {opacity:0, x:-300, delay: .6})
+gsap.from('.en-construccion .img-construccion', 1.3, {opacity:0, x:300, delay: .6})
 
 
 
