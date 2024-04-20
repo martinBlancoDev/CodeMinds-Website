@@ -1,4 +1,3 @@
-[CodeMinds Website]
 Bienvenido/a al repositorio de Codeminds!
 
 Descripción
