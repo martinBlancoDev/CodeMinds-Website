@@ -179,13 +179,13 @@ p{
     display: none;
 
 }
-.form-login .link-navigation .lnk-log-reg{
+.lnk-log-reg{
 
     color: #2ab0c2;
     text-decoration: none;
 }
 
-.form-login .link-navigation .lnk-log-reg:hover{
+.lnk-log-reg:hover{
 
     color: #f18509;
     transition: 0.8s;

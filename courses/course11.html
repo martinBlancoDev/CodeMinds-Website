@@ -17,36 +17,38 @@
 
     <header class="course-header">
 
-        <div class="navbar">
-            <div class="logo"><a href="/index.html"><img src="/assets/LogoNav.png" alt="Logo-NavBar"></a></div>
-            
-            <ul class="links">
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/about.html">Nosotros</a></li>
-                <li><a href="/cursos.html">Cursos</a></li>
-                <li><a href="/index.html#faqs">FAQs</a></li>
-                <li><a href="/contact.html">Contacto</a></li>
-    
-            </ul>
-    
-            <div class="div-btn">
-                <a href="/login.html" class="get-started-btn">Comienza Ahora</a>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #12022b;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/assets/LogoNav.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav" style="margin-left: 3rem;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html" style="margin-right: 2rem;" onmouseover="this.style.color='#ffa500';" onmouseout="this.style.color='#fff';">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html" style="margin-right: 2rem;" onmouseover="this.style.color='#ffa500';" onmouseout="this.style.color='#fff';">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/cursos.html" style="margin-right: 2rem;" onmouseover="this.style.color='#ffa500';" onmouseout="this.style.color='#fff';">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#faqs" style="margin-right: 2rem;" onmouseover="this.style.color='#ffa500';" onmouseout="this.style.color='#fff';">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html" style="margin-right: 2rem;" onmouseover="this.style.color='#ffa500';" onmouseout="this.style.color='#fff';">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" style="margin-right: 30px;" action="/login.html">
+                        <button class="btn btn-outline-success" type="submit">Comienza Ahora</button>
+                    </form>
+                </div>
             </div>
-    
-            <div class="menu-button" >
-                <i class="fa-solid fa-bars" onclick='openMenuDesplegable("menu-desplegable")'></i>
-            </div>
-    
-            <div id="menu-desplegable">
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/about.html">Nosotros</a></li>
-                <li><a href="/cursos.html">Cursos</a></li>
-                <li><a href="/index.html#faqs">FAQs</a></li>
-                <li><a href="/contact.html">Contacto</a></li>
-                <li> <a href="/login.html" class="get-started-btn">Comienza Ahora</a></li>
-                
-            </div>
-        </div>
+        </nav>
+
             
     </header>
 
@@ -242,6 +244,9 @@
 
     <!--Script para animar con GSAP-->
      <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+     <!--Script de JS de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

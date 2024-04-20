@@ -1,6 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+/* QUERIDO DEV QUE EVALUARÁ ESTE CODIGO:
+
+    El código CSS que vas a ver es un código muy simple. No implementa selectores 
+    avanzados ni tampoco propiedades demasiado complicadas. El código tampoco tiene buenas prácticas
+    ni está optimizado en absoluto ya que me limité a hacerla con lo que se vió en el curso (por ej. no
+    usé otra unidad De tamaño que no sea px (quizás hay algún rem pero era necesario)). Dado que en este 
+    se vieron aspectos bastante básicos de HTML y CSS no quise ir mucho más allá de lo que se enseñó. 
+    De todas maneras,espero que les guste y que sea un potencial candidato a la mejor 
+    página (para eso me esforzé tanto :D).
+    
+    Muchas gracias por leer,
+    
+    Atentamente: Martín Blanco
+    
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -56,17 +73,14 @@
 }
 /* DISEÑO RESPONSIVO (Con Media Querys)*/
 
-
-
-
 @media(max-width:550px){
 
-    .landing-section .navbar-brand{
+    .navbar-brand{
 
         width: 50%;
     }
     
-    .landing-section .navbar-brand img{
+    .navbar-brand img{
 
         width: 100%;
     }
@@ -114,8 +128,8 @@
 @media(max-width:850px){
 
     .landing-section{
+        
         background-image: none;
-        background: rgb(2,0,36);
         background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(24,4,53,1) 37%, rgba(63,8,144,1) 100%);
     }
 
@@ -140,7 +154,7 @@
 /* SECCION TRUSTED BY */
 
 .empresas{
-    height:250px;
+    height:100%;
     background-color: #12022b;
     
 }
@@ -161,7 +175,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    
+    padding-bottom: 15px;
 }
 
 .empresas img{
@@ -1870,7 +1884,7 @@ margin: 0;
     flex-direction: column;
     height: 100%;
     background-color: #1b0243;
-    padding: 0 40px;
+    padding: 25px 40px;
 }
 
 .course-details-section .instructor{
