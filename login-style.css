@@ -191,6 +191,10 @@ p{
     transition: 0.8s;
 }
 
+.link-volver-mobile{
+    display: none;
+}
+
 @media(max-width:850px){
 
     .login-form{
@@ -210,6 +214,10 @@ p{
     }
 
     .form-login .link-navigation{
+        display: flex;
+    }
+
+    .link-volver-mobile{
         display: flex;
     }
 }
